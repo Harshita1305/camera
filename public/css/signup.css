@@ -1,0 +1,16 @@
+.form {
+    display: block;
+}
+
+body {
+    align-items: center;
+}
+
+.forms {
+    width: 20%;
+    position: relative;
+    text-align: centre;
+    display: flex;
+    left: 30%;
+    top: 10%;
+}

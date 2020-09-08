@@ -1,0 +1,152 @@
+/*.navbar-brand {
+    font-size: 3.5rem !important;
+    font-family: 'Merriweather', serif;
+    margin: 20px 0 20px 50px;
+    color: white;
+}
+
+.navbar-nav {
+    margin-right: 80px;
+    font-size: 1.5rem;
+}
+
+*/
+
+.nav-link {
+    padding-right: 40px !important;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+/*
+.navbar-inner {
+    background: transparent;
+}
+
+.triangle {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.w3-container {
+    background-color: #393b44;
+    width: 100%;
+}
+
+.intro {
+    background-image: -webkit-linear-gradient(65deg, #393b44 50%, #fff 50%);
+    background-size: 70px 60px;
+}*/
+
+body {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffff;
+}
+
+h1 {
+    font-size: 4rem !important;
+}
+
+p {
+    color: #696b6e;
+    font-size: .9rem;
+    margin-left: 60px;
+}
+
+.navbar-trans {
+    background: transparent;
+}
+
+a.navbar-brand {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    padding-left: 60px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    position: -webkit-sticky;
+}
+
+.cover {
+    background: #2b2d34 url(https://images.unsplash.com/photo-1580852300513-9b50125bf293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) center;
+    background-size: cover;
+    min-height: 50rem;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+    position: center;
+}
+
+.cover .cover-container {
+    font-family: monospace;
+    position: relative;
+    top: 261px;
+    left: 1%;
+    font-family: 'Zilla Slab', serif;
+}
+
+img.media {
+    width: 300px !important;
+}
+
+hr {
+    margin: 20px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+    padding-left: 10px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+
+.media-body {
+    margin: 60px 30px 20px 30px;
+}
+
+.feature-heading {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.accessories {
+    margin-right: 60px !important;
+    margin-top: 70px;
+    font-size: 2.25rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    color: grey;
+}
+
+.card {
+    margin: 60px 40px 40px 60px;
+    display: inline-block !important;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    color: grey;
+}
+
+.fab {
+    margin: 10px 20px;
+}
