@@ -68,7 +68,7 @@ app.post("/signin", function(req, res) {
                 if (founduser.Password === password) {
                     console.log(UserName);
                     console.log(password);
-                    res.redirect("done");
+                    res.render("done", { func: "in" });
                 }
             } else {
                 console.log(founduser);
@@ -99,7 +99,7 @@ app.post("/signup", function(req, res) {
     })
     user.save();
     console.log(user);
-    res.render("done");
+    res.render("done", { func: "up" });
 })
 
 app.listen(3000, function() {
