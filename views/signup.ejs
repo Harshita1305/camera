@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup</title>
     <link rel="stylesheet" href="/css/signup.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="forms">
-        <form>
+        <form action="/signup" method="post">
             <h1>please fillout your details</h1>
             <label>Full name</label>
             <input type="text" name="name" value=" " required autofocus>
@@ -19,7 +21,15 @@
             <label>DOB</label>
             <input type="date" data-provider="datepicker" name="dob" value=" " required autofocus>
             <label>Place of Birth</label>
-            <input type="text" name="pob" value=" " required autofocus>
+            <!--<select data-toggle="dropdown" class="selectpicker countrypicker" data-live-search="true" name="pob" value=" " required autofocus></select>-->
+            <input type="text" name="pob" value=" " data-toggle="dropdown" class="selectpicker countrypicker" data-live-search="true" required autofocus>
+            <label>Contact Number</label>
+            <input type="text" name="pnum" value=" " required autofocus>
+            <label>Email</label>
+            <input type="email" name="username" value=" " required autofocus>
+            <label>Password</label>
+            <input type="password" name="password" value=" " required autofocus>
+            <button type="submit">submit</button>
         </form>
     </div>
 </body>

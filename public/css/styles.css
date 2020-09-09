@@ -91,13 +91,13 @@ a.navbar-brand {
 .cover .cover-container {
     font-family: monospace;
     position: relative;
-    top: 261px;
+    top: 16.31em;
     left: 1%;
     font-family: 'Zilla Slab', serif;
 }
 
 img.media {
-    width: 300px !important;
+    width: 35% !important;
 }
 
 hr {
@@ -105,7 +105,7 @@ hr {
 }
 
 .carousel .carousel-item {
-    height: 500px;
+    height: 35em;
     padding-left: 10px;
 }
 
@@ -114,7 +114,7 @@ hr {
     object-fit: cover;
     top: 0;
     left: 0;
-    min-height: 400px;
+    min-height: 30em;
 }
 
 .media-body {
@@ -124,29 +124,29 @@ hr {
 .feature-heading {
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-top: 70px;
-    padding-left: 60px;
+    padding: 95 0 0 12%;
 }
 
 .accessories {
-    margin-right: 60px !important;
-    margin-top: 70px;
-    font-size: 2.25rem;
+    margin-right: 10% !important;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 1.25rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
     color: grey;
 }
 
 .card {
-    margin: 60px 40px 40px 60px;
+    margin: 10% 10%;
     display: inline-block !important;
 }
 
 #footer {
-    padding: 7% 15%;
+    padding: 7%;
     text-align: center;
     color: grey;
 }
 
 .fab {
-    margin: 10px 20px;
+    margin: 3% 2%;
 }
