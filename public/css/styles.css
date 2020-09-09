@@ -11,16 +11,14 @@
 }
 
 */
-
-.nav-link {
-    padding-right: 40px !important;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    font-size: 1.25rem;
-}
-
-
-/*
+    
+    .nav-link {
+        padding-right: 40px !important;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        font-size: 1.25rem;
+    }
+    /*
 .navbar-inner {
     background: transparent;
 }
@@ -42,119 +40,116 @@
     background-image: -webkit-linear-gradient(65deg, #393b44 50%, #fff 50%);
     background-size: 70px 60px;
 }*/
-
-body {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #ffff;
-}
-
-h1 {
-    font-size: 4rem !important;
-}
-
-p {
-    color: #696b6e;
-    /* width: 70%; */
-    font-size: .9rem;
-    margin-left: 5%;
-}
-
-.navbar-trans {
-    background: transparent;
-}
-
-a.navbar-brand {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff !important;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 1% 0 0 1%;
-    padding-left: 3%;
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    position: -webkit-sticky;
-}
-
-.cover {
-    background: #2b2d34 url(https://images.unsplash.com/photo-1580852300513-9b50125bf293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) center;
-    background-size: cover;
-    min-height: 50rem;
-    /* width: 99%; */
-    color: #fff;
-    padding-top: 1rem;
-    position: center;
-}
-
-.cover .cover-container {
-    font-family: monospace;
-    position: relative;
-    top: 16.31em;
-    left: 1%;
-    font-family: 'Zilla Slab', serif;
-}
-
-.media img {
-    width: 35% !important;
-}
-
-hr {
-    margin: 20px;
-}
-
-.carousel .carousel-item {
-    height: 35em;
-    padding-left: 10px;
-}
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 30em;
-}
-
-
-/* .media-body {
+    
+    body {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #ffff;
+    }
+    
+    h1 {
+        font-size: 4rem !important;
+    }
+    
+    p {
+        color: #696b6e;
+        /* width: 70%; */
+        font-size: .9rem;
+        margin-left: 5%;
+    }
+    
+    .navbar-trans {
+        background: transparent;
+    }
+    
+    a.navbar-brand {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #fff !important;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1% 0 0 1%;
+        padding-left: 3%;
+    }
+    
+    .navbar {
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        position: -webkit-sticky;
+    }
+    
+    .cover {
+        background: #2b2d34 url(https://images.unsplash.com/photo-1580852300513-9b50125bf293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) center;
+        background-size: cover;
+        min-height: 50rem;
+        /* width: 99%; */
+        color: #fff;
+        padding-top: 1rem;
+        position: center;
+    }
+    
+    .cover .cover-container {
+        font-family: monospace;
+        position: relative;
+        top: 16.31em;
+        left: 1%;
+        font-family: 'Zilla Slab', serif;
+    }
+    
+    .media img {
+        width: 35% !important;
+    }
+    
+    hr {
+        margin: 20px;
+    }
+    
+    .carousel .carousel-item {
+        height: 35em;
+        padding-left: 10px;
+    }
+    
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 30em;
+    }
+    /* .media-body {
     padding: 5%;
     margin: 5% 10%;
 } */
-
-.feature-heading {
-    font-size: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 9% 0 0 5%;
-}
-
-.accessories {
-    margin-right: 10% !important;
-    margin-top: 5%;
-    margin-left: 10%;
-    font-size: 1.25rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
-    color: grey;
-}
-
-.card {
-    margin: 10% 10%;
-    display: inline-block !important;
-}
-
-
-/* .card img {
+    
+    .feature-heading {
+        font-size: 2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 9% 0 0 5%;
+    }
+    
+    .accessories {
+        margin-right: 10% !important;
+        margin-top: 5%;
+        margin-left: 10%;
+        font-size: 1.25rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+        color: grey;
+    }
+    
+    .card {
+        margin: 10% 10%;
+        display: inline-block !important;
+    }
+    /* .card img {
     width: 10%;
     height: auto;
 } */
-
-#footer {
-    padding: 5%;
-    text-align: center;
-    color: grey;
-}
-
-.fab {
-    margin: 3% 2%;
+    
+    #footer {
+        padding: 5%;
+        text-align: center;
+        color: grey;
+    }
+    
+    .fab {
+        margin: 3% 2%;
+    }

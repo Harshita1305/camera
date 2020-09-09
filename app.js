@@ -21,27 +21,27 @@ if (port == null || port == "") {
     port = 3000;
 }
 const signSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true
-    },
+        name: {
+            type: String,
+            required: true
+        },
 
-    Sex: String,
-    DateOfBirth: Date,
-    PlaceofBirth: String,
-    pNumber: String,
-    Username: {
-        type: String,
-        unique: true,
-        required: true
-    },
-    Password: {
-        type: String,
-        required: true
-    }
-})
-const secret = "qwertyuiop"
-signSchema.plugin(encrypt, { secret: secret, encryptedFields: ['Password'] });
+        Sex: String,
+        DateOfBirth: Date,
+        PlaceofBirth: String,
+        pNumber: String,
+        Username: {
+            type: String,
+            unique: true,
+            required: true
+        },
+        Password: {
+            type: String,
+            required: true
+        }
+    })
+    //const secret = "qwertyuiop"
+signSchema.plugin(encrypt, { secret: process.env.SECRET, encryptedFields: ['Password'] });
 const User = new mongoose.model('User', signSchema)
 
 

@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+h1 {
+    color: grey;
+    margin: 10% 0 0 10%;
+}
+
+hr {
+    margin-left: 10%;
+}
+
+.btn {
+    margin-left: 10%;
+}
