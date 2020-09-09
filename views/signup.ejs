@@ -11,27 +11,50 @@
 </head>
 
 <body>
-    <div class="forms">
+    <div class=" form">
+        <h1>REGISTER YOURSELF</h1>
+        <h5>Please fill your details !.</h5>
         <form action="/signup" method="post">
-            <h1>please fillout your details</h1>
-            <label>Full name</label>
-            <input type="text" name="name" value=" " required autofocus>
-            <label>Sex</label>
-            <input type="text" name="sex" value=" " required autofocus>
-            <label>DOB</label>
-            <input type="date" data-provider="datepicker" name="dob" value=" " required autofocus>
-            <label>Place of Birth</label>
-            <!--<select data-toggle="dropdown" class="selectpicker countrypicker" data-live-search="true" name="pob" value=" " required autofocus></select>-->
-            <input type="text" name="pob" value=" " data-toggle="dropdown" class="selectpicker countrypicker" data-live-search="true" required autofocus>
-            <label>Contact Number</label>
-            <input type="text" name="pnum" value=" " required autofocus>
-            <label>Email</label>
-            <input type="email" name="username" value=" " required autofocus>
-            <label>Password</label>
-            <input type="password" name="password" value=" " required autofocus>
-            <button type="submit">submit</button>
+
+
+            <div class="input ">
+
+                <input type="text" class="form-control " placeholder=" Name">
+            </div>
+
+            <div class="input ">
+
+                <input type="text" class="form-control " placeholder="sex">
+            </div>
+
+            <div class="input ">
+
+                <input type="date" class="form-control " placeholder="DOB">
+            </div>
+            <div class="input ">
+
+                <input type="text " class="form-control  " placeholder="place of birth ">
+            </div>
+
+
+            <div class="input ">
+
+                <input type="number " class="form-control  " placeholder="contact number ">
+            </div>
+            <div class="input ">
+
+                <input type="email " class="form-control " placeholder="Email-address" id="exampleInputEmail1 " aria-describedby="emailHelp ">
+
+            </div>
+            <div class="input ">
+
+                <input type="password " class="form-control   " placeholder="Password" id="exampleInputPassword1 ">
+            </div>
+            <div class="input ">
+                <button type="submit " class="btn btn-primary ">Submit</button>
+            </div>
         </form>
-    </div>
 </body>
+</div>
 
 </html>

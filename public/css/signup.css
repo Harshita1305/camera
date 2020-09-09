@@ -1,16 +1,23 @@
 .form {
-    display: block;
+    padding: 5% 35%;
 }
 
-body {
-    align-items: center;
+.input {
+    padding: 2% 0;
 }
 
-.forms {
-    width: 20%;
-    position: relative;
-    text-align: centre;
-    display: flex;
-    left: 30%;
-    top: 10%;
+h1 {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    font-style: oblique;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: gray;
+    font-style: italic;
+    padding-bottom: 5%;
+    ;
 }

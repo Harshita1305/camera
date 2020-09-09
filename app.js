@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express");
 const { compileFunction } = require("vm");
 const bodyParser = require("body-parser");
@@ -39,8 +40,7 @@ const signSchema = new mongoose.Schema({
         required: true
     }
 })
-
-const secret = "mynameisharshita";
+const secret = "qwertyuiop"
 signSchema.plugin(encrypt, { secret: secret, encryptedFields: ['Password'] });
 const User = new mongoose.model('User', signSchema)
 

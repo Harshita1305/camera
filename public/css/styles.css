@@ -1,4 +1,4 @@
-/*.navbar-brand {
+    /*.navbar-brand {
     font-size: 3.5rem !important;
     font-family: 'Merriweather', serif;
     margin: 20px 0 20px 50px;
@@ -54,8 +54,9 @@ h1 {
 
 p {
     color: #696b6e;
+    /* width: 70%; */
     font-size: .9rem;
-    margin-left: 60px;
+    margin-left: 5%;
 }
 
 .navbar-trans {
@@ -67,8 +68,8 @@ a.navbar-brand {
     color: #fff !important;
     font-size: 2.5rem;
     font-weight: bold;
-    margin: 10px 0 0 10px;
-    padding-left: 60px;
+    margin: 1% 0 0 1%;
+    padding-left: 3%;
 }
 
 .navbar {
@@ -82,7 +83,7 @@ a.navbar-brand {
     background: #2b2d34 url(https://images.unsplash.com/photo-1580852300513-9b50125bf293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) center;
     background-size: cover;
     min-height: 50rem;
-    width: 100%;
+    /* width: 99%; */
     color: #fff;
     padding-top: 1rem;
     position: center;
@@ -96,7 +97,7 @@ a.navbar-brand {
     font-family: 'Zilla Slab', serif;
 }
 
-img.media {
+.media img {
     width: 35% !important;
 }
 
@@ -117,14 +118,16 @@ hr {
     min-height: 30em;
 }
 
-.media-body {
-    margin: 60px 30px 20px 30px;
-}
+
+/* .media-body {
+    padding: 5%;
+    margin: 5% 10%;
+} */
 
 .feature-heading {
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 95 0 0 12%;
+    padding: 9% 0 0 5%;
 }
 
 .accessories {
@@ -141,12 +144,17 @@ hr {
     display: inline-block !important;
 }
 
+
+/* .card img {
+    width: 10%;
+    height: auto;
+} */
+
 #footer {
-    padding: 7%;
+    padding: 5%;
     text-align: center;
     color: grey;
 }
 
 .fab {
     margin: 3% 2%;
-}
